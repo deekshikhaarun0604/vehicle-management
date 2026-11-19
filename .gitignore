@@ -1,0 +1,30 @@
+
+# Java compiled files
+*.class
+*.jar
+backend/bin/
+backend/sources.txt
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+python-analysis/.cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+backend/resources/db.properties
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
